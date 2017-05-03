@@ -1,6 +1,6 @@
 paths:
-    migrations: C:\Users\dsire\projects\Formstack-database-project\migrations
-    seeds: C:\Users\dsire\projects\Formstack-database-project\seeds
+    migrations: C:\Users\dsire\GitHub\Projects\Formstack-database-project\migrations
+    seeds: C:\Users\dsire\GitHub\Projects\Formstack-database-project\seeds
 
 environments:
     default_migration_table: phinxlog

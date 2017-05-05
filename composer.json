@@ -4,7 +4,7 @@
         "phpunit/dbunit": "^3.0"
     },
     "require": {
-        "robmorgan/phinx": "^0.8.0",
+        "sergeytsalkov/meekrodb": "*",
         "voku/simple-mysqli": "^4.4"
     }
 }

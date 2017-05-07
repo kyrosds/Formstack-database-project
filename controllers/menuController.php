@@ -1,8 +1,6 @@
 <?php
-namespace app\controller;
-
-use app\mysqlconnector;
-use app\models;
+require_once dirname(__FILE__) . '/../models/user.php';
+require_once dirname(__FILE__) . '/../mysqlConnector.php';
 
 /**
 * Controller for functionality of menu
@@ -25,9 +23,7 @@ class MenuController {
 	* return void
 	**/
 	public function __construct() {
-		require_once __DIR__ . '../'
-
-		$this->db = new \app\mysqlconnector\Sql('my_database', 'password', 'my_database');
+		$this->db = new Sql('127.0.0.1', 'root', 'password', 'my_database');
 	}
 
 	/**
@@ -36,7 +32,6 @@ class MenuController {
   * @return array
   */
 	public function displayUserById(array $args = array()) {
-
 		$id = $args[0];
 
 		return json_encode($this->db->readByID( self::TABLE, 'id', $id));
@@ -91,7 +86,4 @@ class MenuController {
 		return json_encode($this->db->delete( self::TABLE, 'id', $id));
 	}
 }
-
-
-
 ?>

@@ -20,10 +20,10 @@
 class DB {
   // initial connection
   public static $dbName = 'my_database';
-  public static $user = 'my_database';
+  public static $user = 'root';
   public static $password = 'password';
-  public static $host = 'localhost';
-  public static $port = null;
+  public static $host = '127.0.0.1';
+  public static $port = 3306;
   public static $encoding = 'latin1';
 
   // configure workings
@@ -37,7 +37,7 @@ class DB {
   public static $nested_transactions = false;
   public static $usenull = true;
   public static $ssl = array('key' => '', 'cert' => '', 'ca_cert' => '', 'ca_path' => '', 'cipher' => '');
-  public static $connect_options = array(MYSQLI_OPT_CONNECT_TIMEOUT => 30);
+  public static $connect_options = array(MYSQLI_OPT_CONNECT_TIMEOUT => 120);
 
   // internal
   protected static $mdb = null;
@@ -114,11 +114,11 @@ class DB {
 
 class MeekroDB {
   // initial connection
-  public $dbName = '';
-  public $user = '';
-  public $password = '';
-  public $host = 'localhost';
-  public $port = null;
+  public $dbName = 'my_database';
+  public $user = 'root';
+  public $password = 'password';
+  public $host = '127.0.0.1';
+  public $port = 3306;
   public $encoding = 'latin1';
 
   // configure workings
@@ -132,7 +132,7 @@ class MeekroDB {
   public $nested_transactions = false;
   public $usenull = true;
   public $ssl = array('key' => '', 'cert' => '', 'ca_cert' => '', 'ca_path' => '', 'cipher' => '');
-  public $connect_options = array(MYSQLI_OPT_CONNECT_TIMEOUT => 30);
+  public $connect_options = array(MYSQLI_OPT_CONNECT_TIMEOUT => 120);
 
   // internal
   public $internal_mysql = null;

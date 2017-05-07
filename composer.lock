@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e6ce70607189a417d6351f7daf2f660d",
+    "content-hash": "b1ea8648ebd214d1363949c281a7562e",
     "packages": [
         {
             "name": "ircmaxell/password-compat",
@@ -574,16 +574,16 @@
         },
         {
             "name": "voku/simple-mysqli",
-            "version": "v4.4.0",
+            "version": "v4.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/simple-mysqli.git",
-                "reference": "61cab35d4064b62696c8bca583fa2fad66234bcb"
+                "reference": "299cb3013716f5f080902ca38ce5c365eb12e36e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/simple-mysqli/zipball/61cab35d4064b62696c8bca583fa2fad66234bcb",
-                "reference": "61cab35d4064b62696c8bca583fa2fad66234bcb",
+                "url": "https://api.github.com/repos/voku/simple-mysqli/zipball/299cb3013716f5f080902ca38ce5c365eb12e36e",
+                "reference": "299cb3013716f5f080902ca38ce5c365eb12e36e",
                 "shasum": ""
             },
             "require": {
@@ -628,7 +628,7 @@
                 "php",
                 "simple db"
             ],
-            "time": "2017-04-10T15:47:34+00:00"
+            "time": "2017-05-05T07:29:16+00:00"
         }
     ],
     "packages-dev": [

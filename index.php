@@ -1,17 +1,13 @@
 <?php
-namespace app;
-
-use app\controller;
-
   /**
   * Connects the controller.
   */
-  require_once '../scripts/controllers/menu_controller.php';
+  require_once dirname(__FILE__) . '/../controllers/menuController.php';
 
   /**
   * Instantiates the connected controller.
   */
-  $controller = new \app\scripts\controllers\MenuController();
+  $controller = new MenuController();
 
   $result = $controller->index();
 

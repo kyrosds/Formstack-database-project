@@ -1,6 +1,4 @@
 <?php
-namespace app\models;
-
   /**
    * User class
    */
@@ -30,5 +28,5 @@ namespace app\models;
     * Password of user.
     **/
     public $password;
-
+  }
  ?>
